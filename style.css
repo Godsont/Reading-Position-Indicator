@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  line-height: 2;
+  margin: 24px 0;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: "Roboto Black", sans-serif;
+  margin: 8px 0;
+}
+
+article {
+  max-width: 900px;
+  margin: 32px auto;
+  border: 2px solid #eae7e7;
+  padding: 32px;
+}
+
+article img {
+  width: 100%;
+}
+
+.progress {
+  position: fixed;
+  top: 0;
+  height: 4px;
+  background: red;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #222;
+  color: white;
+}
